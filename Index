@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BytePs - GTPS Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2e3b4e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .status {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .links {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .link-item {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .download-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        .copy-text {
+            font-family: monospace;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .copy-text::after {
+            content: " (copy to clipboard)";
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BytePs - GTPS Server</h1>
+    </header>
+
+    <div class="container">
+        <!-- Status Section -->
+        <div class="status">
+            <h2>Status: Server Online</h2>
+        </div>
+
+        <!-- Description Section -->
+        <div class="description">
+            <h2>About BytePs</h2>
+            <p>BytePs is a custom Growtopia Private Server (GTPS) designed for players to enjoy a unique and customizable Growtopia experience. Whether you're looking to explore new features, host your own world, or engage with a community of players, BytePs offers a reliable and fun platform to do so.</p>
+            <p>RGB Colors are available for the in-game settings, ensuring that players can enjoy a vibrant and colorful environment while exploring or interacting with others.</p>
+        </div>
+
+        <!-- Download Links Section -->
+        <div class="links">
+            <h2>Download Links</h2>
+            <div class="link-item">
+                <a href="https://www.mediafire.com/file/azo65k15sea9dsk/Byteps.txt/file" class="download-button" target="_blank">Download VHost File</a>
+            </div>
+            <div class="link-item">
+                <a href="https://growsoft.cc/android.txt" class="download-button" target="_blank">DOWNLOAD PTUNNEL FILE</a>
+            </div>
+        </div>
+
+        <!-- Server Information Section -->
+        <div class="links">
+            <h2>Server Information</h2>
+            <p class="copy-text">91.134.85.13 growtopia1.com</p>
+            <p class="copy-text">91.134.85.13 growtopia2.com</p>
+            <p class="copy-text">91.134.85.13 www.growtopia1.com</p>
+            <p class="copy-text">91.134.85.13 www.growtopia2.com</p>
+        </div>
+    </div>
+</body>
+</html>
